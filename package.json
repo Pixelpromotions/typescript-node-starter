@@ -1,0 +1,41 @@
+{
+  "name": "typescript-node-starter",
+  "version": "1.0.0",
+  "description": "Quickly create a Typescript Node Project",
+  "main": "src/index.ts",
+  "bin": "src/index.ts",
+  "scripts": {
+    "start": "ts-node-dev --respawn src/index.ts",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "cli": "nodemon index.js"
+  },
+  "keywords": [
+    "typescript",
+    "tsc",
+    "javascript",
+    "NodeJS",
+    "starter",
+    "kit"
+  ],
+  "author": "Pixelpromotions",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.7.1",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pixelpromotions/typescript-starter-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Pixelpromotions/typescript-starter-kit/issues"
+  },
+  "homepage": "https://github.com/Pixelpromotions/typescript-starter-kit#readme",
+  "dependencies": {
+    "inquirer": "^7.0.4"
+  }
+}
