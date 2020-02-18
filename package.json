@@ -1,7 +1,7 @@
 {
   "name": "typescript-node-starter",
-  "version": "1.0.2",
-  "description": "Quickly create a Typescript Node Project",
+  "version": "1.0.3",
+  "description": "typescript-node-starter is a template generator that quickly generates a Typescript template ✨",
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
@@ -13,7 +13,15 @@
     "javascript",
     "NodeJS",
     "starter",
-    "kit"
+    "kit",
+    "stack",
+    "node stack",
+    "mern stack",
+    "vue",
+    "react",
+    "redux",
+    "angular",
+    "gatsby"
   ],
   "author": "Yassine",
   "license": "MIT",
